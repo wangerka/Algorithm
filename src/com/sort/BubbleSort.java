@@ -1,5 +1,7 @@
 package com.sort;
 
+import com.common.Util;
+
 public class BubbleSort {
 
 	/**
@@ -19,9 +21,7 @@ public class BubbleSort {
 			}
 		}
 
-		for(int i=0;i<values.length;i++){
-			System.out.print(values[i]+"->");
-		}
+		Util.pirntArray(values);
 	}
 
 }
