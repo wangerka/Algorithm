@@ -19,7 +19,7 @@ public class SelectionSort {
 				}
 			}
 			
-			//交换的顺序很重要
+			//交换的顺序很重要！！！
 			int tmp = values[index];
 			values[index]=values[i];
 			values[i]=tmp;
