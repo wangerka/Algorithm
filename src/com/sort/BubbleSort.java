@@ -6,6 +6,8 @@ public class BubbleSort {
 
 	/**
 	 * @param args
+	 * 重复地走访过要排序的数列，一次比较两个元素，如果它们的顺序错误就把它们交换过来
+	 * 这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
