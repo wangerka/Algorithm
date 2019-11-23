@@ -7,7 +7,7 @@ public class QuickSort {
 	/**
 	 * @param args
 	 * 挖坑+分治
-	 * 
+	 * 从数列中挑出一个基准元素，重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面，然后对2个子序列再快速排序递归
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
