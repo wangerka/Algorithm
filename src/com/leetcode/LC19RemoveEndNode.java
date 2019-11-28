@@ -1,8 +1,8 @@
-package com.remove.node.from.end;
+package com.leetcode;
 
 import com.common.ListNode;
 
-public class Solution {
+public class LC19RemoveEndNode {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		ListNode sta = new ListNode(0);
 		ListNode fast = sta;

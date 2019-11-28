@@ -1,8 +1,8 @@
-package com.leetcode24.swapnodes;
+package com.leetcode;
 
 import com.common.ListNode;
 
-public class Solution {
+public class LC24SwapNodes {
 	
 	/*
 	 * ÉÚ±ø»úÖÆ£º

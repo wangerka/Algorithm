@@ -1,9 +1,27 @@
-package com.merge.two.sorted.lists;
+package com.leetcode;
 
 import com.common.ListNode;
 
-public class Solution {
-	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class LC23MergeKSortedLists {
+    public ListNode mergeKLists(ListNode[] lists) {
+        //K个和2个的区别。可以2个2个排序。
+        if(lists.length ==0 ) return null;
+        ListNode head = lists[0];
+        for(int i=1;i<lists.length;i++){
+            head = mergeTwoLists(head, lists[i]);
+        }
+        return head;
+    }
+    
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode current=new ListNode(-1);
         ListNode result=current;
         //如果2个链表长度不一样一旦一个比完了 。另一个就不用比了

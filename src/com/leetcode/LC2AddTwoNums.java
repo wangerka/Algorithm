@@ -1,9 +1,9 @@
-package com.add.two.numbers;
+package com.leetcode;
 
 import com.common.ListNode;
 
 
-public class Solution {
+public class LC2AddTwoNums {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode p = new ListNode(-1);
         ListNode start = p;
